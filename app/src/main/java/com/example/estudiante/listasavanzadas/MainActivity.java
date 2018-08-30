@@ -25,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         lv_noticias.setAdapter(customAdapter);
 
         Noticia noticia1 = new Noticia("Se cambia el logo de HED", "Van a hacer un cambiazo en ese logo", "30/08/2018");
+        Noticia noticia2 = new Noticia("Se cambia el logo de MUA", "Van a hacer un cambiazo en ese logo", "14/05/2018");
 
         customAdapter.agregarNoticia(noticia1);
+        customAdapter.agregarNoticia(noticia2);
 
         lv_noticias.setOnItemClickListener(new AdapterView.OnItemClickListener() {// con ctrl click sale lo que debe ir en ()
             @Override
