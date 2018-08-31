@@ -6,12 +6,28 @@
 
     >
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba un titulo"
+        android:id="@+id/et_titulo"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generar noticia"
+        android:id="@+id/btn_generar"
+        />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lv_noticias"
         />
-
+        <!-- Asi se pone un comentario -->
 
 
 
